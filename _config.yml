@@ -12,7 +12,7 @@ favicon: /favicon.ico
 
 # giscus评论系统在这里配置 https://giscus.app/zh-CN
 giscus:
-    enable: true
+    enable: false
     repo: "giscus/giscus-component"
     repo_id: "MDEwOlJlcG9zaXRvcnkzOTEzMTMwMjA="
     category_id: "DIC_kwDOF1L2fM4B-hVS"
@@ -25,9 +25,9 @@ giscus:
 # valine 
 valine:
     # 评论
-    enableComment: false 
+    enableComment: true 
     # 阅读量
-    enableCounter: false
+    enableCounter: true
     # valine appID
     appID:
     # valine appKey
