@@ -3,7 +3,7 @@ title: tree
 author: Matteo
 
 links:
-  github: https://blog.matteo.eu.org
+  github: https://matteo.eu.org
   custom:
     - name: UidGenerator
       URL: https://github.com/wujun234/uid-generator-spring-boot-starter
@@ -48,7 +48,7 @@ siteStartYear: 2023
 #   https://www.google.com/search?q=
 # homeHost：要搜索的站点域名，不配置默认取当前页面的域名
 searchEngine: https://www.google.com/search?q=
-homeHost: blog.matteo.eu.org
+homeHost: matteo.eu.org
 
 tags: true
 categories: true
