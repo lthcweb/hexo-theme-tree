@@ -1,9 +1,9 @@
 title: tree
 
-author: 吴俊
+author: Matteo
 
 links:
-  github: https://github.com/wujun234
+  github: https://blog.matteo.eu.org
   custom:
     - name: UidGenerator
       URL: https://github.com/wujun234/uid-generator-spring-boot-starter
@@ -12,22 +12,22 @@ favicon: /favicon.ico
 
 # giscus评论系统在这里配置 https://giscus.app/zh-CN
 giscus:
-    enable: false
-    repo: "giscus/giscus-component"
-    repo_id: "MDEwOlJlcG9zaXRvcnkzOTEzMTMwMjA="
-    category_id: "DIC_kwDOF1L2fM4B-hVS"
-    reactions_enabled: "1"	 
+    enable: true
+    repo: "lthcweb/lthcweb.github.io"
+    repo_id: "MDEwOlJlcG9zaXRvcnkzNjQzMzAzNzQ="
+    category_id: "DIC_kwDOFbc9hs4CPQN0"
+    reactions_enabled: "0"	 
     emit_metadata: "0"
-    input_position: "top"	
+    input_position: "bottom"	
     theme: "light"
     lang: "zh-CN"
 
 # valine 
 valine:
     # 评论
-    enableComment: true 
+    enableComment: false 
     # 阅读量
-    enableCounter: true
+    enableCounter: false
     # valine appID
     appID:
     # valine appKey
@@ -39,7 +39,7 @@ valine:
 busuanzi: false
 
 # 底部版权开始年份
-siteStartYear: 2019
+siteStartYear: 2023
 
 ####### 站外搜索配置 #####
 # 站点如果【被搜索引擎收录】，可以配置通过搜索引擎全站搜索
