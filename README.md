@@ -38,8 +38,8 @@ valine:
     enableCounter: false
 ```
 
-- 如果要使用giscus评论系统，需要在themes/tree路径下的_config.yml，填写giscus配置
-  配置页面：https://giscus.app/zh-CN
+- 如果要使用giscus评论系统，需要在themes/tree路径下的_config.yml，填写giscus配置 
+  配置页面：https://giscus.app/zh-CN 
   若不需要，则设置
 giscus:
     enable: false
