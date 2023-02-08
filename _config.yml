@@ -12,12 +12,12 @@ favicon: /favicon.ico
 
 # giscus评论系统在这里配置 https://giscus.app/zh-CN
 giscus:
-    enable: true
+    enable: false
     repo: "lthcweb/lthcweb.github.io"
     repo_id: "MDEwOlJlcG9zaXRvcnkzNjQzMzAzNzQ="
     category_id: "DIC_kwDOFbc9hs4CPQN0"
     reactions_enabled: "0"	 
-    emit_metadata: "0"
+    emit_metadata: "1"
     input_position: "bottom"	
     theme: "light"
     lang: "zh-CN"
@@ -37,6 +37,12 @@ valine:
 
 # 是否开启“不蒜子”统计访问量
 busuanzi: false
+
+## remark42
+remark42:
+    enable: true
+    host: https://35.242.225.253
+    site_id: 'mySiteId'
 
 # 底部版权开始年份
 siteStartYear: 2023
