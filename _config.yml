@@ -1,19 +1,31 @@
 title: tree
 
-author: 吴俊
+author: Matteo
 
 links:
-  github: https://github.com/wujun234
+  github: https://matteo.eu.org
   custom:
     - name: UidGenerator
       URL: https://github.com/wujun234/uid-generator-spring-boot-starter
   
 favicon: /favicon.ico
 
+# giscus评论系统在这里配置 https://giscus.app/zh-CN
+giscus:
+    enable: false
+    repo: "lthcweb/lthcweb.github.io"
+    repo_id: "MDEwOlJlcG9zaXRvcnkzNjQzMzAzNzQ="
+    category_id: "DIC_kwDOFbc9hs4CPQN0"
+    reactions_enabled: "0"	 
+    emit_metadata: "1"
+    input_position: "bottom"	
+    theme: "light"
+    lang: "zh-CN"
+
 # valine 
 valine:
     # 评论
-    enableComment: true 
+    enableComment: false 
     # 阅读量
     enableCounter: false
     # valine appID
@@ -24,10 +36,16 @@ valine:
     avatar: retro
 
 # 是否开启“不蒜子”统计访问量
-busuanzi: true
+busuanzi: false
+
+## remark42
+remark42:
+    enable: true
+    host: https://35.242.225.253
+    site_id: 'mySiteId'
 
 # 底部版权开始年份
-siteStartYear: 2019
+siteStartYear: 2023
 
 ####### 站外搜索配置 #####
 # 站点如果【被搜索引擎收录】，可以配置通过搜索引擎全站搜索
@@ -36,10 +54,10 @@ siteStartYear: 2019
 #   https://www.google.com/search?q=
 # homeHost：要搜索的站点域名，不配置默认取当前页面的域名
 searchEngine: https://www.google.com/search?q=
-homeHost: wujun234.github.io
+homeHost: matteo.eu.org
 
-#tags: true
-#categories: true
+tags: true
+categories: true
 
 # 左侧导航栏，用文件名还是文章名
 sidebar:

@@ -3,7 +3,7 @@ $(document).ready(function () {
   clickTreeDirectory();
   serachTree();
   pjaxLoad();
-  showArticleIndex();
+  //showArticleIndex();
   switchTreeOrIndex();
   scrollToTop();
   pageScroll();
@@ -175,7 +175,7 @@ function pjaxLoad() {
           searchResult[0].parentNode.classList.add("active");
           showActiveTree($("#tree .active"), true)
         }
-        showArticleIndex();
+        //showArticleIndex();
       }
       wrapImageWithFancyBox();
     }
